@@ -6,10 +6,9 @@ import { ReactComponent as LinkedInLogo } from '../assets/linkedInLogo.svg';
 const Header = () => {
   return (
     <header>
-      <nav className="flex items-center justify-between flex-wrap bg-white p-6 border-solid border-0 border-b-2 border-gray-200">
-        <div className="flex items-center flex-shrink-0 text-gray-800 mr-6">
-          <NavLogo className="fill-current text-gray-600 h-16 w-16 mr-4" />
-          <span className="font-semibold text-3xl tracking-tight">Joey Nguyen</span>
+      <nav className="flex items-center justify-between flex-wrap bg-white p-6 border-solid border-0 border-b-2 border-gray-200 sticky top-0">
+        <div className="flex items-center flex-shrink-0 text-gray-800 mr-5">
+          <span className="font-semibold text-3xl tracking-tight border border-black rounded-full h-16 w-16 flex items-center justify-center">J N</span>
         </div>
         <div className="block lg:hidden">
           <button className="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
