@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
 import About from './About';
-import ViewportProvider from './hooks/useViewport';
 
 function App() {
   return (
@@ -17,3 +16,20 @@ function App() {
 }
 
 export default App;
+
+/*
+
+TODO:
+High:
+[] Create projects section
+[] Create contact section
+[] Find actual portrait for about me section
+
+Medium:
+[] Create footer
+[] Fix padding on each section so that only one section appears on screen at a time
+Low:
+[] Abstract divider into own component (i.e. "About me -----")
+
+Done:
+*/

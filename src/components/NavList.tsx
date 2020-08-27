@@ -38,3 +38,18 @@ const NavList = ( { visible }: NavListProps ) => {
 }
 
 export default NavList;
+
+/*
+
+TODO:
+High:
+[] Allow resume button to open a new tab with resume
+
+Medium:
+[]
+
+Low:
+[]
+
+Done:
+*/

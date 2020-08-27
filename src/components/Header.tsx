@@ -1,8 +1,6 @@
 import React, { useState, createContext, useContext } from 'react';
 import NavList from './NavList'
 import useViewport from './hooks/useViewport';
-import { buttonStyles } from './styles';
-
 
 const Header = () => {
   const [visible, setVisible] = useState(false);
@@ -50,6 +48,9 @@ Medium:
 
 Low:
 [] Fix menu appearing slightly when shrinking window size
+[] Modify menu button:
+  [] Change icon to X when clicked
+  [] Have animation for when menu is clicked
 
 Done:
 [x] Add eventListener for when screen width is 1025px+... need to set visibility to true at this point
