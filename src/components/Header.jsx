@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className={`lg:flex items-center justify-between flex-wrap bg-white p-6 border-solid border-0 border-b-2 border-gray-200 w-full ease-in-out transform transition-all duration-500 fixed ${showTopNav ? 'top-0' : '-translate-y-full'}`}>
+      <nav className={`lg:flex items-center justify-between flex-wrap bg-white p-6 w-full ease-in-out transform transition-all duration-500 fixed ${showTopNav ? 'top-0' : '-translate-y-full shadow-xl'}`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center flex-shrink-0 text-gray-800 mr-5">
             <span className="font-semibold text-3xl tracking-tight border border-black rounded-full h-16 w-16 mr-5 flex items-center justify-center">J N</span>
@@ -57,4 +57,5 @@ Done:
 [x] Fix menu appearing slightly when shrinking window size
 [x] Modify menu button:
   [x] Change icon to X when clicked
+[x] Added shadow to header for when it disappears
 */

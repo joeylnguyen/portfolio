@@ -8,16 +8,16 @@ const About = () => {
         <div className="border-b flex-1 w-full" style={{height: "8px"}}>{""}</div>
       </div>
       <div className="flex flex-col items-center lg:justify-between lg:flex-row text-gray-500">
-        <div className="flex flex-col lg:w-1/2">
-          <div className="text-sm md:text-lg  my-4 md:my-10">
+        <div className="flex flex-col py-20 lg:w-1/2">
+          <div className="md:text-lg  my-4 md:my-10">
               <p>
-                This is about me.
+                Hi! I'm Joey Nguyen, and I'm a software engineer based out of California.
               </p>
               <p className="mt-5">
-                Et consectetur excepteur ullamco ea aliquip velit tempor tempor nostrud commodo do enim mollit deserunt. Ipsum ullamco ad consectetur aliquip veniam incididunt laboris sint eiusmod anim dolore eu.
+                I love building websites, applications, and pretty much anything that gets my gears turning. I enjoy problem-solving, working with others, and - most of all - learning.
               </p>
               <p className="mt-5">
-                Ipsum aliquip consequat ad labore aute anim fugiat veniam veniam minim. Cillum mollit laborum voluptate laboris commodo labore nulla id pariatur exercitation veniam velit commodo commodo.
+                After graduating from UC Berkeley, I worked as a digital marketer specifically focused on programmatic media. After 3 years, I left my job to pursue my passion for programming and joined HackReactor's rigorous coding immersive to equip myself with the technical skills and knowledge necessary to succeed as an Engineer.
               </p>
               <p className="mt-5">
                 Here are a few techonolgies I've been working with:

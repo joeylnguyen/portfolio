@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <main className="px-8 md:px-16 lg:px-32">
+      <main className="px-8 md:px-16 lg:px-32 max-w-screen-2xl mx-auto min-h-screen">
         <Hero />
         <About />
         <Projects />
@@ -26,8 +26,9 @@ export default App;
 TODO:
 High:
 [] Create projects section
-[] Create contact section
 [] Find actual portrait for about me section
+  [x] Portrait found
+  [] Figure out how to have portrait show up...lol
 [] Allow resume button to open a new tab with resume
 
 Medium:
@@ -35,13 +36,17 @@ Medium:
 [] Figure out how to make content look like its loading on the spot with incrementing transition delay
 [] Extract nav list and nav buttons into own components to import into side and top navs (take from sidenav)
 [] Fix tsx for Navs
+[] Extract button into own component
 Low:
 [] Extract divider into own component (i.e. "About me -----")
 
 Done:
 [x] Fix padding on each section so that only one section appears on screen at a time
+[x] Create contact section
 
 Tradeoff notes:
 - Had to create two menu buttons since the first menu button was getting hidden behind the side nav... not sure why this is happening. Solution was to have another menu with separate logic and styling on the sidenav layer
 - Due to weird styling issues, needed to make two separate nav bar components that share very similar logic. The sidebar needed to live outside of the main header section, otherwise the styling for having the header disappear on scroll would intefere with how the sidebar appears. Will probably have to extract out some of the logic for each navbar into their own components.
+- Can't use transform styling on buttons on main content due to it making the buttons float above everything. The buttons will be superimposed over navbar for example. Because of this, they don't get the floating effect when hovering over.
+
 */

@@ -10,6 +10,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      '2xl': '1600px',
     },
     colors: {
       transparent: 'transparent',
@@ -261,6 +262,7 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
       '7xl': '5rem',
+      '8xl': '6rem',
     },
     fontWeight: {
       hairline: '100',
@@ -333,6 +335,7 @@ module.exports = {
       '4xl': '56rem',
       '5xl': '64rem',
       '6xl': '72rem',
+      'max-w-1600': '1600px',
       full: '100%',
       ...breakpoints(theme('screens')),
     }),
@@ -427,6 +430,7 @@ module.exports = {
       '10/12': '83.333333%',
       '11/12': '91.666667%',
       full: '100%',
+      halfScreen: '50vw',
       screen: '100vw',
     }),
     zIndex: {
