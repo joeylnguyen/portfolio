@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="py-16 md:py-32 lg:py-64">
+    <section id="About" className="flex flex-col justify-center h-screen">
       <div className="flex items-center">
         <h3 className="flex-0 mr-5 text-gray-800 text-2xl lg:text-3xl">About me</h3>
         <div className="border-b flex-1 w-full" style={{height: "8px"}}>{""}</div>
