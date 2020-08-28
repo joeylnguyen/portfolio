@@ -43,4 +43,5 @@ Done:
 
 Tradeoff notes:
 - Had to create two menu buttons since the first menu button was getting hidden behind the side nav... not sure why this is happening. Solution was to have another menu with separate logic and styling on the sidenav layer
+- Due to weird styling issues, needed to make two separate nav bar components that share very similar logic. The sidebar needed to live outside of the main header section, otherwise the styling for having the header disappear on scroll would intefere with how the sidebar appears. Will probably have to extract out some of the logic for each navbar into their own components.
 */
