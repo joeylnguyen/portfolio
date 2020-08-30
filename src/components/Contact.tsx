@@ -8,7 +8,7 @@ const Contact = () => {
         <h4 className="text-6xl font-extrabold text-gray-800">
           Let's Chat?
         </h4>
-        <div className="py-5 px:16 lg:px-32 text-lg">
+        <div className="py-5 max-w-lg m-auto text-lg">
           <p>
             I'm actively searching for new opportunities as a Software Engineer at awesome companies. Feel free to get in touch if you have an opening!
           </p>
