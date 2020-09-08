@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <main className="px-8 md:px-16 lg:px-32 max-w-screen-2xl mx-auto min-h-screen">
+      <main className="px-8 md:px-16 lg:px-32 max-w-screen-2xl mx-auto min-h-screen snap snap-y snap-mandatory">
         <Hero />
         <About />
         <Projects />

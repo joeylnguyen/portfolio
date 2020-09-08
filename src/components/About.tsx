@@ -2,14 +2,14 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="About" className="flex flex-col justify-center py-32">
+    <section id="About" className="flex flex-col justify-center py-32 h-auto snap-start">
       <div className="flex items-center">
         <h3 className="flex-0 mr-5 text-gray-800 text-2xl lg:text-3xl font-bold">About me</h3>
         <div className="border-b flex-1 w-full" style={{height: "8px"}}>{""}</div>
       </div>
       <div className="flex flex-col items-center lg:justify-between lg:flex-row text-gray-500">
-        <div className="flex flex-col py-8 lg:py-20 lg:w-1/2">
-          <div className="text-sm md:text-lg  my-4 md:my-10">
+        <div className="flex flex-col py-8 lg:py-12 lg:w-1/2">
+          <div className="text-sm md:text-lg my-4 md:my-10">
               <p>
                 Hi! I'm Joey Nguyen, and I'm a software engineer based out of California.
               </p>
@@ -23,15 +23,15 @@ const About = () => {
                 Here are a few techonolgies I've been working with:
               </p>
             </div>
-            <ul className="text-xs md:text-sm grid grid-cols-2">
+            <ul className="text-xs md:text-sm grid grid-cols-2 sm:w-3/4">
               <li className="mb-3">- Javascript</li>
-              <li className="mb-3 -ml-10">- React</li>
+              <li className="mb-3">- React</li>
               <li className="mb-3">- Node.js/Express</li>
-              <li className="mb-3 -ml-10">- TailwindCSS</li>
+              <li className="mb-3">- TailwindCSS</li>
             </ul>
         </div>
           <div className="mt-5">
-            <img src="http://lorempixel.com/output/animals-q-g-300-300-7.jpg" alt="Portrait" className="object-center"/>
+            <img src="http://lorempixel.com/output/animals-q-g-300-300-7.jpg" alt="Portrait" className="object-center h-auto max-w-full"/>
           </div>
       </div>
 
