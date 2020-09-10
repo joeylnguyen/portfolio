@@ -44,7 +44,7 @@ const ProjectCard = ({ name, description, githubLink, projectLink, technologies,
           <picture>
             <source media="(min-width: 450px)" srcSet={`${webpLarge}, ${imageLarge}`} />
             <source srcSet={`${webpSmall}, ${imageSmall}`} />
-            <img src={imageLarge} alt={name + 'example image'} loading="lazy"></img>
+            <img src={imageLarge} alt={name + ' example image'} loading="lazy"></img>
           </picture>
         </a>
       </div>
