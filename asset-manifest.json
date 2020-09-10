@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/joeylnguyen/portfolio/static/css/main.004bd6f5.chunk.css",
+    "main.js": "/joeylnguyen/portfolio/static/js/main.d2c01adf.chunk.js",
+    "main.js.map": "/joeylnguyen/portfolio/static/js/main.d2c01adf.chunk.js.map",
+    "runtime-main.js": "/joeylnguyen/portfolio/static/js/runtime-main.6a8e65a7.js",
+    "runtime-main.js.map": "/joeylnguyen/portfolio/static/js/runtime-main.6a8e65a7.js.map",
+    "static/js/2.1c017ac4.chunk.js": "/joeylnguyen/portfolio/static/js/2.1c017ac4.chunk.js",
+    "static/js/2.1c017ac4.chunk.js.map": "/joeylnguyen/portfolio/static/js/2.1c017ac4.chunk.js.map",
+    "index.html": "/joeylnguyen/portfolio/index.html",
+    "precache-manifest.9e61aecb2ff6f6fe0099ccf93b14fb0b.js": "/joeylnguyen/portfolio/precache-manifest.9e61aecb2ff6f6fe0099ccf93b14fb0b.js",
+    "service-worker.js": "/joeylnguyen/portfolio/service-worker.js",
+    "static/css/main.004bd6f5.chunk.css.map": "/joeylnguyen/portfolio/static/css/main.004bd6f5.chunk.css.map",
+    "static/js/2.1c017ac4.chunk.js.LICENSE.txt": "/joeylnguyen/portfolio/static/js/2.1c017ac4.chunk.js.LICENSE.txt",
+    "static/media/externalLink.473c56f3.svg": "/joeylnguyen/portfolio/static/media/externalLink.473c56f3.svg",
+    "static/media/githubLogo.856181f3.svg": "/joeylnguyen/portfolio/static/media/githubLogo.856181f3.svg",
+    "static/media/linkedInLogo.3ce7327a.svg": "/joeylnguyen/portfolio/static/media/linkedInLogo.3ce7327a.svg",
+    "static/media/portrait.jpg": "/joeylnguyen/portfolio/static/media/portrait.1de522fa.jpg",
+    "static/media/portrait.webp": "/joeylnguyen/portfolio/static/media/portrait.d55d5e97.webp",
+    "static/media/resume.pdf": "/joeylnguyen/portfolio/static/media/resume.0bdef6b3.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a8e65a7.js",
+    "static/js/2.1c017ac4.chunk.js",
+    "static/css/main.004bd6f5.chunk.css",
+    "static/js/main.d2c01adf.chunk.js"
+  ]
+}
