@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TopNav from './TopNav';
-import SideNav from './SideNav.jsx';
+import SideNav from './SideNav';
 import useViewport from './hooks/useViewport';
 import useScrollPosition from './hooks/useScrollPosition';
 
@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className={`lg:flex items-center justify-between flex-wrap bg-white p-6 w-full ease-in-out transform transition-all duration-500 fixed ${showTopNav ? 'top-0' : '-translate-y-full'}`}>
+      <nav className={`lg:flex items-center justify-between flex-wrap bg-white p-6 w-full ease-in-out transform transition-all duration-500 fixed ${showTopNav ? 'top-0' : '-translate-y-full'} z-40`} >
         <div className="flex items-center justify-between">
           <a href="#Hero" className="flex items-center flex-shrink-0 text-gray-800 mr-5">
             <span className="font-semibold text-3xl tracking-tight border border-black rounded-full h-16 w-16 mr-5 flex items-center justify-center">J N</span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header.jsx';
+import Header from './Header';
 import Hero from './Hero';
 import About from './About';
 import Projects from './Projects';
@@ -25,15 +25,20 @@ export default App;
 
 TODO:
 High:
+[] Create all device logos
+[] Edit HTML
+[] Edit descriptions
+[x] Get SVG for project pop out
+[] Get domain name
 
 Medium:
 [] Create footer
-[] Figure out how to make content look like its loading on the spot with incrementing transition delay
 [] Extract nav list and nav buttons into own components to import into side and top navs (take from sidenav)
-[] Fix tsx for Navs
 [] Extract button into own component
+
 Low:
 [] Extract divider into own component (i.e. "About me -----")
+[] Figure out how to make content look like its loading on the spot with incrementing transition delay
 
 Done:
 [x] Fix padding on each section so that only one section appears on screen at a time
@@ -43,6 +48,8 @@ Done:
   [x] Portrait found
   [x] Figure out how to have portrait show up...lol
 [x] Allow resume button to open a new tab with resume
+[x] Fix tsx for Navs
+
 
 Tradeoff notes:
 - Had to create two menu buttons since the first menu button was getting hidden behind the side nav... not sure why this is happening. Solution was to have another menu with separate logic and styling on the sidenav layer

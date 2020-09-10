@@ -1,5 +1,4 @@
 import React from 'react';
-import buttonStyles from './styles.js';
 
 const Contact = () => {
   return (
@@ -14,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex justify-center my-8">
-          <a href="mailto:joeylnguyen95@gmail.com" className={`text-lg flex flex-col justify-center w-40 h-16 text-center leading-none text-gray-600 bg-gray-300 border-gray-300 border rounded transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-transparent hover:text-white hover:bg-gray-800 hover:shadow-xl mt-4 lg:mt-0`}>Contact Me</a>
+          <a href="mailto:joeylnguyen95@gmail.com" className={`text-lg flex flex-col justify-center w-40 h-16 text-center leading-none text-gray-600 bg-gray-300 border-gray-300 border rounded transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-transparent hover:text-white hover:bg-gray-800 hover:shadow-xl mt-4 lg:mt-0`}>Contact Me</a>
         </div>
       </div>
     </section>
