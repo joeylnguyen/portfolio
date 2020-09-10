@@ -33,8 +33,8 @@ const About = () => {
           <div className="mt-5 w-48 md:w-auto max-w-xs">
             <a href="https://github.com/joeylnguyen">
               <picture>
-                <source srcSet={`${require('../assets/portrait.webp')}, ${require('../assets/portrait.jpg')}`} />
-                <img src={require('../assets/portrait.jpg')} alt="Portrait" className="object-contain" loading="lazy"/>
+                <source srcSet={`${require('/joeylnguyen/portfolio/tree/gh-pages/static/media/portrait.d55d5e97.WEBP')}, ${require('../assets/portrait.JPG')}`} />
+                <img src={require('/joeylnguyen/portfolio/blob/gh-pages/static/media/portrait.1de522fa.JPG')} alt="Portrait" className="object-contain" loading="lazy"/>
               </picture>
 
             </a>
