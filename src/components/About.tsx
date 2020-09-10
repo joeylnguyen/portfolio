@@ -30,8 +30,14 @@ const About = () => {
               <li className="mb-3">- TailwindCSS</li>
             </ul>
         </div>
-          <div className="mt-5">
-            <img src="http://lorempixel.com/output/animals-q-g-300-300-7.jpg" alt="Portrait" className="object-center h-auto max-w-full"/>
+          <div className="mt-5 w-48 md:w-auto max-w-xs">
+            <a href="https://github.com/joeylnguyen">
+              <picture>
+                <source srcSet={`${require('../assets/portrait.webp')}, ${require('../assets/portrait.jpg')}`} />
+                <img src={require('../assets/portrait.jpg')} alt="Portrait" className="object-contain" loading="lazy"/>
+              </picture>
+
+            </a>
           </div>
       </div>
 

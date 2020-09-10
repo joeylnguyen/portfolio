@@ -10,9 +10,6 @@ const Hero = () => {
         <p>
           I'm a software engineer that loves building websites, applications, and pretty much anything that gets my gears turning.
         </p>
-        <p className="mt-5">
-          I'm actively looking for new job opportunities, so feel free to shoot me an email if you'd like to chat!
-        </p>
       </div>
       <a href="mailto:joeylnguyen95@gmail.com" className={`text-lg flex flex-col justify-center w-40 h-16 text-center ${buttonStyles}`}>Contact Me</a>
     </section>

@@ -26,7 +26,7 @@ const SideNav = ({ showSideNav, width, handleClick }) => {
         </a>
       </div>
       <div className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-center flex-wrap lg:flex">
-       <a href="#resume" className={`text-xl px-8 py-4 lg:text-sm lg:px-4 lg:py-2 lg:mr-4 transform ${buttonStyles}`} onClick={handleClick}>Resume</a>
+       <a href={require('../assets/resume.pdf')} rel="nofollow noopener noreferrer" target = "_blank" className={`text-xl px-8 py-4 lg:text-sm lg:px-4 lg:py-2 lg:mr-4 transform ${buttonStyles}`} onClick={handleClick}>Resume</a>
         <div className="flex justify-start items-center text-gray-500">
           <a href="https://github.com/joeylnguyen" className="block flex items-center hover:text-gray-700 mr-3">
           <GitHubLogo className="fill-current w-8 h-8 lg:w-5 lg:h-5 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-block hover:border-transparent mt-4 lg:mt-0"/>

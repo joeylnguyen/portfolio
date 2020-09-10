@@ -25,11 +25,6 @@ export default App;
 
 TODO:
 High:
-[] Create projects section
-[] Find actual portrait for about me section
-  [x] Portrait found
-  [] Figure out how to have portrait show up...lol
-[] Allow resume button to open a new tab with resume
 
 Medium:
 [] Create footer
@@ -43,6 +38,11 @@ Low:
 Done:
 [x] Fix padding on each section so that only one section appears on screen at a time
 [x] Create contact section
+[x] Create projects section
+[x] Find actual portrait for about me section
+  [x] Portrait found
+  [x] Figure out how to have portrait show up...lol
+[x] Allow resume button to open a new tab with resume
 
 Tradeoff notes:
 - Had to create two menu buttons since the first menu button was getting hidden behind the side nav... not sure why this is happening. Solution was to have another menu with separate logic and styling on the sidenav layer
