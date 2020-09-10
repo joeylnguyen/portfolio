@@ -25,11 +25,11 @@ export default App;
 
 TODO:
 High:
-[] Create all device logos
-[] Edit HTML
+[x] Create all device logos
+[x] Edit HTML
 [] Edit descriptions
 [x] Get SVG for project pop out
-[] Get domain name
+[] Get domain nam
 
 Medium:
 [] Create footer

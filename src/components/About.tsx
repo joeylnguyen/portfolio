@@ -17,17 +17,17 @@ const About = () => {
                 I love building websites, applications, and pretty much anything that gets my gears turning. I enjoy problem-solving, working with others, and - most of all - learning.
               </p>
               <p className="mt-5">
-                After graduating from UC Berkeley, I worked as a digital marketer specifically focused on programmatic media. After 3 years, I left my job to pursue my passion for programming and joined HackReactor's rigorous coding immersive to equip myself with the technical skills and knowledge necessary to succeed as an Engineer.
+                After graduating from UC Berkeley, I worked as a digital marketer specifically focused on programmatic media. After 3 years, I left my job to pursue my passion for programming. The rest is history!
               </p>
               <p className="mt-5">
                 Here are a few techonolgies I've been working with:
               </p>
             </div>
-            <ul className="text-xs md:text-sm grid grid-cols-2 sm:w-3/4">
-              <li className="mb-3">- Javascript</li>
-              <li className="mb-3">- React</li>
-              <li className="mb-3">- Node.js/Express</li>
-              <li className="mb-3">- TailwindCSS</li>
+            <ul className="text-xs md:text-base grid grid-cols-2 sm:w-3/4">
+              <li className="mb-3">Javascript</li>
+              <li className="mb-3">React</li>
+              <li className="mb-3">Node.js/Express</li>
+              <li className="mb-3">TailwindCSS</li>
             </ul>
         </div>
           <div className="mt-5 w-48 md:w-auto max-w-xs">

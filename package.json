@@ -10,6 +10,7 @@
     "@types/node": "^12.12.51",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
@@ -17,13 +18,15 @@
     "tailwindcss-scroll-snap": "^1.0.3",
     "typescript": "^3.7.5"
   },
+  "homepage": "https://github.com/joeylnguyen/portfolio",
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
-    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
