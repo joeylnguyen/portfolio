@@ -33,7 +33,7 @@ const About = () => {
           <div className="mt-5 w-48 md:w-auto max-w-xs">
             <a href="https://github.com/joeylnguyen">
               <picture>
-                <source srcSet={`${require('../assets/portrait.WEBP')}, ${require('../assets/portrait.JPG')}`} />
+                <source media="min-width: 0px" srcSet={`${require('../assets/portrait.WEBP')}, ${require('../assets/portrait.JPG')}`} />
                 <img src={require('../assets/portrait.JPG')} alt="Portrait" className="object-contain" loading="lazy"/>
               </picture>
 

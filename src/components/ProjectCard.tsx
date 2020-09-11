@@ -39,11 +39,13 @@ const ProjectCard = ({ name, description, githubLink, projectLink, technologies,
           </a>
         </div>
       </div>
-      <div className="flex justify-center border border-transparent shadow-sm">
-        <a href={projectLink}>
+      <div className="flex justify-center">
+        <a href={projectLink} rel="nofollow noopener noreferrer" target="_blank">
           <picture>
-            <source media="(min-width: 450px)" srcSet={`${webpLarge}, ${imageLarge}`} />
-            <source srcSet={`${webpSmall}, ${imageSmall}`} />
+            <source media="(min-width: 450px)" srcSet={`${webpLarge}`} type="image/webp"/>
+            <source media="(min-width: 450px)" srcSet={`${imageLarge}`} />
+            <source media="(min-width: 0px)" srcSet={`${webpSmall}`} type="image/webp"/>
+            <source media="(min-width: 0px)" srcSet={`${imageSmall}`} />
             <img src={imageLarge} alt={name + ' example image'} loading="lazy"></img>
           </picture>
         </a>
