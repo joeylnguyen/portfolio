@@ -8,7 +8,11 @@ useEffect(() => {
   const handleScroll = () =>{
     const currScrollPos = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (Math.abs(currScrollPos - lastScrollPos) < 0) {
+    if (currScrollPos < 0) {
+      return;
+    }
+
+    if (Math.abs(currScrollPos - lastScrollPos) < 50) {
       return;
     }
 
