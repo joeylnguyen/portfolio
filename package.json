@@ -18,7 +18,7 @@
     "tailwindcss-scroll-snap": "^1.0.3",
     "typescript": "^3.7.5"
   },
-  "homepage": "https://joeylnguyen.github.io/portfolio/",
+  "homepage": "http://joeynguyen.me/",
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",

@@ -27,9 +27,10 @@ TODO:
 High:
 [x] Create all device logos
 [x] Edit HTML
-[] Edit descriptions
+[x] Edit descriptions
 [x] Get SVG for project pop out
-[] Get domain nam
+[] Get domain name
+[] Figure out how to conditionally polyfill scroll behavior
 
 Medium:
 [] Create footer
